@@ -34,7 +34,7 @@ export default function App() {
 
     return (
         <div>
-            <Table state={checkedState} handle={handleOnChange} />
+            <Table data={data} state={checkedState} handle={handleOnChange} />
             <Basket state={checkedState}/>
             <Result total={total}/>
         </div>
